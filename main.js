@@ -38,5 +38,15 @@ const arr = array.filter(function(element, index){
     return  array.length["string"]
 });
 
+////////////////////////////////////////////////////
+
+//5- Using reduce iterate over the following array and return the sum of all the numbers doubled.
+
+const numbers3 = [1, 2, 3, 4];
+const sum = arr.reduce(function(accumulator, element, index){
+return accumulator + element;
+},0);
+
+
 
 
