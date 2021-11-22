@@ -12,5 +12,14 @@ const exampleFunction = function (x, y, callback) {
 
 ////////////////////////////////////////////////////
 
-//2- 
+//2- Using forEach iterate over the following arrays and console log all the indexes.
 
+const numbers = [1, 2, 3, 4];
+const animals = ["Cat", "Dog", "Bear", "Bat"];
+numbers.forEach(function(element, index) {
+    console.log(animals);
+});
+
+////////////////////////////////////////////////////
+
+//3-
