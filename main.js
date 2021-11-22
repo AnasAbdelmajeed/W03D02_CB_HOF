@@ -22,4 +22,9 @@ numbers.forEach(function(element, index) {
 
 ////////////////////////////////////////////////////
 
-//3-
+//3- Using map iterate over the following array and decrement all elements by 1.
+
+const numbers1 = [1, 2, 3, 4];
+const numbers2= numbers1.map(function(element, index){
+    return element -1
+})
