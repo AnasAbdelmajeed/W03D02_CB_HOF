@@ -28,3 +28,15 @@ const numbers1 = [1, 2, 3, 4];
 const numbers2= numbers1.map(function(element, index){
     return element -1
 })
+
+////////////////////////////////////////////////////
+
+//4- Using filter iterate over the following array and return all string values.
+
+const array = [1, "two", "three", 4];
+const arr = array.filter(function(element, index){
+    return  array.length["string"]
+});
+
+
+
